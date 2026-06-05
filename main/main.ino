@@ -29,8 +29,9 @@ void sendWebPage(WiFiClient& client, bool pinState) {
   <link rel="icon" href="data:,">
   <style>
     html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+    body { background-color: #2c2e35; color: white;}
     .button { background-color: #4CAF50; border: none; color: white; padding: 16px 40px; text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}
-    .button2 {background-color: #555555;}
+    .button2 {background-color: #B22222;}
   </style>
 </head>
 <body>
@@ -38,10 +39,10 @@ void sendWebPage(WiFiClient& client, bool pinState) {
 )=====");
 
   if (pinState == false) {
-    client.print("<p>GPIO 15 - State OFF</p>");
+    client.print("<p>LED svetla - OFF</p>");
     client.print("<p><a href=\"/15/on\"><button class=\"button\">ON</button></a></p>");
   } else {
-    client.print("<p>GPIO 15 - State ON</p>");
+    client.print("<p>LED svetla - ON</p>");
     client.print("<p><a href=\"/15/off\"><button class=\"button button2\">OFF</button></a></p>");
   }
 
