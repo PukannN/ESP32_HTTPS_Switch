@@ -4,9 +4,9 @@
 #define pin15 15
 #define timeoutTime 2000
 
-const char* ssid = "PODA_3217";
-const char* password = "300148300148";
-const char* mdnsName = "svetla";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
+const char* mdnsName = "DOMAIN";
 
 WiFiServer server(80);
 String header;
