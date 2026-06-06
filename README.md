@@ -11,4 +11,4 @@ A simple web server for the ESP-S3 Dev Board that allows toggling a physical GPI
 * Physical pin: GPIO 15 (or any other given pin) connected directly to a LED or a relay module
 
 ## Usage
-* Open your web browser an navigate to: 'http://svetla.local' or use the ip address fetched by 'WiFi.localIP()'
+* Open your web browser an navigate to: `http://svetla.local` or use the ip address fetched by `WiFi.localIP()`
