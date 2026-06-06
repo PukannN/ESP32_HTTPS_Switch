@@ -3,7 +3,7 @@
 A simple web server for the ESP-S3 Dev Board that allows toggling a physical GPIO pin
 
 ## Features
-* mDNS - simple local DNS
+* mDNS: simple local DNS
 * TODO: time toggle
 
 ## Hardware
